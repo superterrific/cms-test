@@ -1,8 +1,6 @@
 ---
 title: 'Update on the end of the year to-do list'
 summary: 'A quick update on the quick note about some work I&apos;d like to get done by the end of the year.'
-category: 'Notes'
-date: '2020-11-23'
 tags: ['Side Projects', 'The Site']
 ---
 

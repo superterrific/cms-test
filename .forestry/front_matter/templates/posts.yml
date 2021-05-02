@@ -8,12 +8,6 @@ fields:
 - type: text
   name: summary
   label: summary
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: category
-  label: category
 - type: list
   name: tags
   label: tags

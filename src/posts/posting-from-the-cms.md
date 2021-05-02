@@ -1,8 +1,6 @@
 ---
 title: Posting from the CMS
 summary: Testing out the old CMS to see if it's hooked up correctly.
-date: 2021-05-02T04:00:00Z
-category: Notes
 tags:
 - CMS
 

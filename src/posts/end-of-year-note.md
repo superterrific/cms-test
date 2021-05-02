@@ -2,7 +2,6 @@
 title: 'End of the year to-do list'
 summary: 'A quick note to keep myself honest about some work I&apos;d like to get done by the end of the year.'
 category: 'Notes'
-date: '2020-11-16'
 tags: ['Side Projects', 'The Site']
 ---
 

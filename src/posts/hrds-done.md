@@ -1,8 +1,6 @@
 ---
 title: 'Horse Racing Datasets redesigned'
 summary: 'A redesign and port to Eleventy is finally in the books.'
-date: 2021-03-29
-category: 'Notes'
 tags: ['Accessibility', 'Airtable', 'Eleventy', 'Side Projects']
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: 'Using Eleventy data files for frequently used links'
 summary: 'Have a set of frequently referenced links? A global data file can come in handy.'
-category: 'Notes'
-date: '2020-09-05'
 tags: ['Eleventy', 'Data']
 ---
 

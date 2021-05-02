@@ -1,8 +1,6 @@
 ---
 title: 'Fun with image optimization'
 summary: 'Over the weekend I updated the site to use next-gen image formats, and it was kind of fun.'
-category: 'Notes'
-date: '2020-09-13'
 tags: ['Performance', 'The Site']
 ---
 
