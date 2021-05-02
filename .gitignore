@@ -6,6 +6,7 @@ npm-debug.*
 Thumbs.db
 .env
 .cache
+.gitattributes
 
 # Node modules and output
 node_modules
