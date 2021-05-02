@@ -4,7 +4,16 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx eleventy --serve",
+    "build":
+      "preview_docker_image": "node:12",
+      "install_dependencies_command": "npm install",
+      "instant_preview_command": "npm start",
+      "mount_path": "/srv",
+      "working_dir": "/srv/src",
+      "preview_output_directory": "src/dist",
+      "preview_env":
+      "- ENV=staging"
   },
   "keywords": [],
   "author": "",
