@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  <article>
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+    <ul>
+      {% for tag in tags %}
+        <li>
+          <a href="/tag/{{ tag | slug }}/"><span aria-hidden="true">#</span>{{ tag | replace(' ', '-') | lower }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </article>
+{% endblock %}
