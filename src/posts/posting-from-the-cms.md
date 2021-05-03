@@ -12,3 +12,11 @@ On the plus side it was pretty easy to set up. But man I don't like this editing
 **Update**: Got ride of the time from frontmatter, still don't like the inputs!
 
 And now I've got the preview working, testing it out 🎉
+
+Odd, the preview seems to reload the index rather than the page being edited, even if the preview was invoked from the page being edited, and if the page is being previewed.
+
+Hmmm, a little weird.
+
+One more test. Is this **just markdown?**
+
+Hoping this worked.
