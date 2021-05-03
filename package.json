@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "develop": "eleventy --serve --port=8080"
+    "forestry:preview": "eleventy --serve"
   },
   "keywords": [],
   "author": "",
