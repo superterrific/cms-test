@@ -10,3 +10,5 @@ Creating the inaugural CMS post! I can't say that I love this editing interface 
 On the plus side it was pretty easy to set up. But man I don't like this editing interface.
 
 **Update**: Got ride of the time from frontmatter, still don't like the inputs!
+
+And now I've got the preview working, testing it out 🎉
