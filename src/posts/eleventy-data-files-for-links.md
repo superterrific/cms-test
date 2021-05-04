@@ -1,9 +1,13 @@
 ---
-title: 'Using Eleventy data files for frequently used links'
-summary: 'Have a set of frequently referenced links? A global data file can come in handy.'
-tags: ['Eleventy', 'Data']
----
+title: Using Eleventy data files for frequently used links
+summary: Have a set of frequently referenced links? A global data file can come in
+  handy.
+tags:
+- Eleventy
+- Data
+date: 2021-03-16T19:47:07Z
 
+---
 [This useful post on maintaining utility class components](https://chriskirknielsen.com/blog/building-and-maintaining-components-from-utility-classes-in-eleventy/) recently made its way into my timeline, inspiring me to write up a similar approach I used to make maintaining this site a little easier.
 
 One of the fun things about creating this site was playing with different approaches, especially with regard to data. In [Learn Eleventy from Scratch](https://piccalil.li/course/learn-eleventy-from-scratch/) there are several useful examples of how to push the envelope with front matter, data files and remote data. This helped me keep those ideas in mind as I played around with how to build this site.
