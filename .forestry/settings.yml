@@ -4,20 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: src/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  exclude: ".json"
+  new_doc_ext: md
+  templates:
+  - posts
 - type: document
   path: src/about.md
   label: About
 - type: document
   path: src/index.md
   label: Home
-- type: directory
-  path: src/posts
-  label: Posts
-  create: all
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - posts
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
