@@ -5,7 +5,7 @@ tags:
 - cms
 
 ---
-The editor defaulted to WYSIWYG, but I thought I had set raw/markdown as the default. That's annoying. I also really don't like the date component, it should also allow for easy manual entry but it doesn't.
+The editor defaulted to WYSIWYG, but I thought I had set markdown as the default when creating a new post within Forestry. That's annoying. I also really don't like the date component, it should also allow for easy manual entry but it doesn't.
 
 ![A diagram showing how something works.](/uploads/diagram.png)
 
