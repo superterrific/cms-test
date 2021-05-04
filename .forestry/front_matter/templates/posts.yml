@@ -13,4 +13,5 @@ fields:
   label: tags
 pages:
 - src/posts/creating-a-new-post.md
+- src/posts/image-test.md
 - src/posts/posting-from-the-cms.md
