@@ -5,8 +5,6 @@ summary: Have a set of frequently referenced links? A global data file can come 
 tags:
 - Eleventy
 - Data
-date: 2021-03-16T19:47:07Z
-
 ---
 [This useful post on maintaining utility class components](https://chriskirknielsen.com/blog/building-and-maintaining-components-from-utility-classes-in-eleventy/) recently made its way into my timeline, inspiring me to write up a similar approach I used to make maintaining this site a little easier.
 

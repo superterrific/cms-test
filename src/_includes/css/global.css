@@ -79,7 +79,7 @@ main > * + * {
 }
 
 article > * + * {
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
 }
 
 article {
@@ -138,6 +138,11 @@ h2 {
   font-weight: 600;
 }
 
+.summary {
+  margin-top: .5rem;
+  font-size: 1rem;
+}
+
 .splitter {
   display: flex;
   flex-wrap: wrap;
@@ -152,4 +157,8 @@ h2 {
 
 .post-nav-item {
   font-size: 1rem;
+}
+
+article h2 + p {
+  margin-top: .5rem;
 }
