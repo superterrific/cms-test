@@ -5,8 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ site.siteName }}</title>
+  {% set css %}
+    {% include "css/global.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
 </head>
 <body>
-  {% block content %}{% endblock %}
+  <header>
+    <div class="site-title">CMS Test</div>
+    <nav>
+      <ul class="site-nav" aria-label="Primary">
+        <li><a href="/">Home</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
 </body>
 </html>

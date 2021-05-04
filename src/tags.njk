@@ -1,0 +1,13 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tag/{{ tag | replace(' ', '-') | lower }}/
+layout: 'layouts/page.html'
+---
+<h1>Filed under "{{ tag }}"</h1>
+
+
+{% set postListItems = collections[ tag ] | reverse %}
+{% include 'partials/post-list.html' %}

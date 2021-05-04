@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "clean-css": "^5.1.2",
     "luxon": "^1.24.1"
   }
 }

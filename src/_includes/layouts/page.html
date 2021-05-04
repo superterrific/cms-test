@@ -5,4 +5,16 @@
     <h1>{{ title }}</h1>
     {{ content | safe }}
   </article>
+
+  {% if page.url === '/' %}
+  {% for post in collections.posts | limit(3) %}
+  <div>
+    <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    <div>
+      <p>{{ post.data.summary }}</p>
+      <p>Published on <time datetime="{{ post.data.page.date | w3Date }}">{{ post.data.page.date | longDate }}</time></p>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
 {% endblock %}

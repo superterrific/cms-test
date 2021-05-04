@@ -1,4 +1,5 @@
 const { DateTime } = require('luxon');
+const CleanCSS = require('clean-css');
 
 
 module.exports = config => {
@@ -19,7 +20,20 @@ module.exports = config => {
   // Collections
   config.addCollection('posts', collection => {
   return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
-});
+  });
+
+  // Minify
+  config.addFilter('cssmin', function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+
+  // Set directories to pass through to the public folder
+  config.addPassthroughCopy('./src/uploads/');
+
+  // Limit amount of items displayed
+  config.addFilter('limit', function (arr, limit) {
+    return arr.slice(0, limit);
+  });
 
   return {
     markdownTemplateEngine: 'njk',

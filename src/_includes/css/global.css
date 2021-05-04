@@ -1,0 +1,155 @@
+/* Resets based on Andy Bell's Modern Reset
+https://github.com/hankchizljaw/modern-css-reset/blob/master/dist/reset.css  */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 1rem;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Blur images when they have no alt attribute */
+img:not([alt]) {
+  filter: blur(10px);
+}
+
+/* Global ---------------------------------------------------------------- */
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+main > * + * {
+  margin-top: 2rem;
+}
+
+article > * + * {
+  margin-top: 1.5rem;
+}
+
+article {
+  max-width: 45rem;
+  font-size: 1.1rem;
+}
+
+header,
+main {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #144f7a;
+}
+
+.site-title {
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.site-nav {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.site-nav li,
+.tag-nav li {
+  margin-inline-end: 1rem;
+}
+
+.tag-nav {
+ display: flex;
+ margin: 1.5rem 0 3rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.3rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.splitter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icon-1-25x {
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: -.25em;
+}
+
+.post-nav-item {
+  font-size: 1rem;
+}
