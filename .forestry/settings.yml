@@ -9,7 +9,7 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  exclude: ".json"
+  exclude: "**/*.json"
   new_doc_ext: md
   templates:
   - posts
