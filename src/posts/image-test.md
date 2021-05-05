@@ -8,8 +8,10 @@ I added an image to the Media gallery and then added to a the [Creating a new po
 
 I added the image to the /uploads directory via GitHub and it worked. So odd.
 
-**Update** I think I had the settings wrong, I've updated and am now trying again. I uploaded the Airtable diagram via the Media library and am associated it here.
+**Update** I think I had the settings wrong, I've updated the image path and am now trying again. I uploaded the Airtable diagram via the Media library and am associated it here.
 
 ![Diagram of data coming from Airtable.](/uploads/diagram-airtable.png)
+
+It worked 🎉
 
 Also, second strike for a new post not picking up the "markdown" setting and defaulting to WYSIWYG.
