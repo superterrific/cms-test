@@ -8,9 +8,24 @@ fields:
 - type: text
   name: summary
   label: summary
+- name: date
+  type: text
+  config:
+    required: false
+  label: date
 - type: list
   name: tags
   label: tags
+- name: img
+  type: text
+  config:
+    required: false
+  label: img
+- name: alt
+  type: text
+  config:
+    required: false
+  label: alt
 pages:
 - src/posts/creating-a-new-post.md
 - src/posts/image-test.md
