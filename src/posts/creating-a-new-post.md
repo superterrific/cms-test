@@ -1,7 +1,7 @@
 ---
 title: Creating a new post
 summary: All the fun there is to be had in post creation.
-date: 2021-05-04
+date: 2021-05-03
 tags:
 - cms
 
