@@ -11,6 +11,7 @@
   <style>{{ css | cssmin | safe }}</style>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
     <div class="site-title">CMS Test</div>
     <nav>
@@ -21,7 +22,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="main-content">
     {% block content %}{% endblock %}
   </main>
 </body>
