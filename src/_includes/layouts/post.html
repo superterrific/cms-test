@@ -11,7 +11,7 @@
     </div>
 
     {% if img %}
-    <img src="/uploads/{{ img }}" alt="{{ alt }}" />
+    <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
     {% endif %}
 
     {{ content | safe }}
