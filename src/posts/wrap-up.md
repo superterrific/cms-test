@@ -16,3 +16,4 @@ Here's a list, come back and clean it up...
   * Would like the publish date to display in the post listing page, even better would be to figure what fields from the post template frontmatter display on the listing page 
 * I set new posts to use markdown and they still default to html
 * Preview is a little slow and quirky, I think if I were making a site for someone coming from WordPress they would find that annoying 
+* Would be nice if images added within the body of a post used lazy loading
