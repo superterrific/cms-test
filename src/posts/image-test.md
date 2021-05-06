@@ -1,7 +1,7 @@
 ---
 title: Image Test
 summary: I tested the images, mixed results.
-date: 2021-05-04
+date: '2021-05-04'
 img: 'db-scores.png'
 alt: 'The most recent Lighthouse scores'
 tags: ['cms', 'images']

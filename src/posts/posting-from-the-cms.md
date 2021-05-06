@@ -1,7 +1,7 @@
 ---
 title: Posting from the CMS
 summary: Testing out the old CMS to see if it's hooked up correctly.
-date: 2021-05-02
+date: '2021-05-02'
 tags:
 - cms
 

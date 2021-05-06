@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-  <article {% if page.url === '/'%}class="featured"{% endif %}>
+  <article class={{ 'featured' if page.url === '/' else 'page' }}>
     <h1>{{ title }}</h1>
     {{ content | safe }}
   </article>

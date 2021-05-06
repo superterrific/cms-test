@@ -3,6 +3,8 @@
   --color-white: #fff;
 }
 
+/* Resets ---------------------------------------------------------------- */
+
 /* Resets based on Andy Bell's Modern Reset
 https://github.com/hankchizljaw/modern-css-reset/blob/master/dist/reset.css  */
 
@@ -43,7 +45,6 @@ html {
 ul[class],
 ol[class] {
   list-style: none;
-
 }
 
 /* A elements that don't have a class get default styles */
@@ -83,15 +84,6 @@ main > * + * {
   margin-top: 2rem;
 }
 
-.post > * + * {
-  margin-top: 1.75rem;
-}
-
-article {
-  max-width: 45rem;
-  font-size: 1.1rem;
-}
-
 header,
 main {
   max-width: 65rem;
@@ -120,6 +112,36 @@ a:focus {
   outline-offset: .2rem;
 }
 
+/* Layout ---------------------------------------------------------------- */
+article {
+  max-width: 45rem;
+  font-size: 1.1rem;
+}
+
+article h2 + p {
+  margin-top: .5rem;
+}
+
+.page > * + * {
+  margin-top: 1rem;
+}
+
+.post > * + * {
+  margin-top: 1.75rem;
+}
+
+.splitter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.summary {
+  margin-top: .5rem;
+  font-size: 1rem;
+}
+
+/* Header and navigation ------------------------------------------------- */
 .site-title {
   font-family: Georgia, serif;
   font-size: 3rem;
@@ -142,6 +164,13 @@ a:focus {
  margin: 1.5rem 0 3rem;
 }
 
+.icon-1-25x {
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: -.25em;
+}
+
+/* Type ------------------------------------------------------------------ */
 h1 {
   font-size: 1.6rem;
   line-height: 1.2;
@@ -154,31 +183,11 @@ h2 {
   font-weight: 600;
 }
 
-.summary {
-  margin-top: .5rem;
-  font-size: 1rem;
-}
-
-.splitter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.icon-1-25x {
-  width: 1.25em;
-  height: 1.25em;
-  vertical-align: -.25em;
-}
-
 .post-nav-item {
   font-size: 1rem;
 }
 
-article h2 + p {
-  margin-top: .5rem;
-}
-
+/* Homepage featured component ------------------------------------------- */
 .featured {
   border: 1px solid var(--color-primary);
   padding: 1rem;
@@ -193,6 +202,7 @@ article h2 + p {
 }
 
 
+/* A11y ------------------------------------------------------------------ */
 a.skip-link {
     left: -999px;
     position: absolute;
