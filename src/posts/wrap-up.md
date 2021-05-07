@@ -8,11 +8,17 @@ img: ''
 alt: ''
 
 ---
-Now that I've gotten the site set-up and the CMS integrated I have a good idea of the pros and cons of Forestry.
+Now that I've gotten the site set-up and the CMS integrated I have a good idea of the pros and cons.
 
-Here's a list, come back and clean it up... and add some detail
+First I created the site locally including some content pages with tags, static pages and pagination. Then I uploaded it to GitHub and imported it. From there I played around with a variety of settings and approaches.
 
-Sections:
+Here's a look at the three major activities or features.
+
+{{% tip %}}Tip Body{{% /tip %}}
+
+## Set Up
+
+It was easy to set up! Without reading any instructions I used the "import your site" flow and was up and running quickly.
 
 * Set up
 * Editing
