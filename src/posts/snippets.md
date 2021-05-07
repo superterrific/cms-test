@@ -9,7 +9,7 @@ img: ''
 alt: ''
 
 ---
-I created a couple of \[snippets\]([https://forestry.io/docs/settings/snippets/](https://forestry.io/docs/settings/snippets/ "https://forestry.io/docs/settings/snippets/")) and am now testing them out.
+I created a couple of[snippets](https://forestry.io/docs/settings/snippets/) and am now testing them out.
 
 ## Image snippet
 
