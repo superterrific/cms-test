@@ -14,7 +14,7 @@ First I created the site locally including some content pages with tags, static 
 
 Here's a look at the three major activities or features.
 
-{{% tip %}}Tip Body{{% /tip %}}
+{{% tip %}}Hi there{{% /tip %}}
 
 ## Set Up
 
