@@ -14,7 +14,6 @@ First I created the site locally including some content pages with tags, static 
 
 Here's a look at the three major activities or features.
 
-{{% tip %}}Hi there{{% /tip %}}
 
 ## Set Up
 
@@ -23,8 +22,6 @@ It was easy to set up! Without reading any instructions I used the "import your 
 * Set up
 * Editing
 * Features / Settings
-
-stuff
 
 * Easy to set up, I didn't read any instructions and used the "add your site" flow and was up and running quickly. I made a whoopsie and it took my a while to get preview working, but it would've just worked had I not flubbed dependencies in package.json
 * I don't love the editing interface but not a deal breaker
