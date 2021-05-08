@@ -32,7 +32,6 @@ fields:
     required: false
   label: alt
 pages:
-- src/posts/bullet-point-test-two.md
 - src/posts/creating-a-new-post.md
 - src/posts/date-picker-test.md
 - src/posts/image-test.md
