@@ -1,7 +1,7 @@
 ---
 title: Snippets
 summary: Testing out a couple of snippets.
-date: '2021-05-06'
+date: 2021-05-06
 tags:
 - snippets
 - cms

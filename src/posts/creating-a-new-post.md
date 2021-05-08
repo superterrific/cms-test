@@ -1,14 +1,14 @@
 ---
 title: Creating a new post
 summary: All the fun there is to be had in post creation.
-date: '2021-05-03'
+date: 2021-05-03
 tags:
 - cms
 img: ''
 alt: ''
 
 ---
-The editor defaulted to WYSIWYG, but I thought I had set markdown as the default when creating a new post within Forestry. 
+The editor defaulted to WYSIWYG, but I thought I had set markdown as the default when creating a new post within Forestry.
 
 ![A diagram showing how something works.](/uploads/diagram.png)
 
