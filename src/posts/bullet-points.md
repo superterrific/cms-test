@@ -1,10 +1,11 @@
 ---
 title: Bullet point Test
-summary: P tags or no?
-date: '2021-05-08'
-tags: ['cms']
----
+summary: P tags or no? Post created locally in Atom.
+date: 2021-05-08
+tags:
+- cms
 
+---
 I want to test something out.
 
 * This is a test
