@@ -118,16 +118,13 @@ article {
   font-size: 1.1rem;
 }
 
-article h2 + p {
-  margin-top: .5rem;
-}
 
-article li {
+.post li {
   line-height: 1.4;
   margin-bottom: .75rem;
 }
 
-li ul {
+.post ul {
   margin-top: .75rem;
 }
 
@@ -136,8 +133,13 @@ li ul {
 }
 
 .post > * + * {
-  margin-top: 1.75rem;
+  margin-top: 1.5rem;
 }
+
+.post h2 + p {
+  margin-top: .5rem;
+}
+
 
 .splitter {
   display: flex;

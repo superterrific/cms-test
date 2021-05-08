@@ -23,4 +23,3 @@ For the most part I think there's a lot to like, especially that's it easy to se
 ## Dislikes
 
 There were just a few small things I didn't like or wished I could configure. I think it's an OK trade-off for the simplicity and easy set-up.
-
