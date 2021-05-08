@@ -5,7 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "forestry:preview": "eleventy --serve"
+    "forestry:preview": "eleventy --serve",
+    "production": "NODE_ENV=production eleventy"
   },
   "keywords": [],
   "author": "",
