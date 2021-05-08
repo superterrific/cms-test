@@ -18,5 +18,3 @@ I added the image to the /uploads directory via GitHub and it worked. So odd.
 ![Diagram of data coming from Airtable.](/uploads/diagram-airtable.png)
 
 It worked 🎉
-
-Also, second strike for a new post not picking up the "markdown" setting and defaulting to WYSIWYG.
