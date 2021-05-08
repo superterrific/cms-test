@@ -17,7 +17,7 @@ For the most part I think there's a lot to like, especially that's it easy to se
 
 * Getting up and running is easy when importing a site.
 * If you're familiar with CMSs in general the configuration of setting up directories and pages is straightforward.
-* There seems to be a good amount of flexibility for setting up frontmatter and creating snippets.
+* There seems to be a good amount of flexibility for setting up front matter and creating snippets.
 
 ## Dislikes
 There were just a few small things I didn't like or wished I could configure. I think it's an OK trade-off for the simplicity and easy set-up.
@@ -28,4 +28,4 @@ There were just a few small things I didn't like or wished I could configure. I 
     * Ability to display values from front matter fields in the directory listing page, for example also displaying value in "date" field or "tags".
 * It would be nice if images added to the body of a post included lazy loading. I created a snippet for images as a work around but that takes away from the ease of use of adding an image.
 * Would be nice to be able to set the default editor to raw rather an WYSIWYG.
-* When creating bullet lists using the WYSIWYG editor, the content withing the line item is set in a p tag. 
+* When creating bullet lists using the WYSIWYG editor, the content withing the line item is set in a p tag.
