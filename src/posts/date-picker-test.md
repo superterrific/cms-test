@@ -3,6 +3,7 @@ title: Date picker test
 summary: With bonus post-dating!
 date: 2021-04-27
 tags:
+- dates
 - cms
 img: ''
 alt: ''
