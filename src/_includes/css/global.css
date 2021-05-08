@@ -1,6 +1,7 @@
 :root {
   --color-primary: #144f7a;
   --color-white: #fff;
+  --color-dark: #333;
 }
 
 /* Resets ---------------------------------------------------------------- */
@@ -78,6 +79,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding: 2rem;
+  color: var(--color-dark);
 }
 
 main > * + * {
@@ -120,12 +122,12 @@ article {
 
 
 .post li {
-  line-height: 1.4;
-  margin-bottom: .75rem;
+  line-height: 1.35;
+  margin-bottom: 1rem;
 }
 
 .post ul {
-  margin-top: .75rem;
+  margin-top: 1em;
 }
 
 .page > * + * {
