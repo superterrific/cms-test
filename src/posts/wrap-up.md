@@ -12,6 +12,13 @@ Now that I've gotten the site set-up and the CMS integrated I have a good idea o
 
 First I created the site locally including some content pages with tags, static pages and pagination. Then I uploaded it to GitHub and imported it. From there I played around with a variety of settings and approaches.
 
+## Positives
+
+* Getting up and running is easy when importing a site.
+* If you're familiar with CMSs in general the configuration of setting up directories and pages is straightforward.
+* There seems to be a good amount of flexibility for setting up frontmatter and creating snippets.
+
+
 Here's a look at the three major activities or features.
 
 ## Set Up
