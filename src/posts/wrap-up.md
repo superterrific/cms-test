@@ -1,7 +1,7 @@
 ---
 title: Wrap up
 summary: 'I''ve sufficiently tested this CMS, here are my notes. '
-date: '2021-05-06'
+date: '2021-05-07'
 tags:
 - cms
 img: ''
@@ -21,8 +21,6 @@ It was easy to set up! Without reading any instructions I used the "import your 
 * Set up
 * Editing
 * Features / Settings
-
-stuff
 
 * Easy to set up, I didn't read any instructions and used the "add your site" flow and was up and running quickly. I made a whoopsie and it took my a while to get preview working, but it would've just worked had I not flubbed dependencies in package.json
 * I don't love the editing interface but not a deal breaker
