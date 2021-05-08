@@ -9,15 +9,10 @@ fields:
   name: summary
   label: summary
 - name: date
-  type: datetime
-  label: date
-  description: ''
+  type: text
   config:
     required: false
-    date_format: MM/DD/YYYY
-    time_format: 
-    display_utc: false
-    export_format: yyyy-mm-dd
+  label: date
 - type: list
   name: tags
   label: tags
