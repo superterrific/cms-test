@@ -13,30 +13,22 @@ Now that I've gotten the site set-up and the CMS integrated I have a good idea o
 First I created the site locally including some content pages with tags, static pages and pagination. Then I uploaded it to GitHub and imported it. From there I played around with a variety of settings and approaches.
 
 ## Likes
+
+For the most part I think there's a lot to like, especially that's it easy to set up.
+
 * Getting up and running is easy when importing a site.
 * If you're familiar with CMSs in general the configuration of setting up directories and pages is straightforward.
 * There seems to be a good amount of flexibility for setting up frontmatter and creating snippets.
 
 ## Dislikes
+
+There were just a few small things I didn't like or wished I could configure. I think it's an OK trade-off for the simplicity and easy set-up.
+
 * I don't love the editing interface but it grew on me a bit after using it for awhile.
-* I'd like to be able to customize or control a few more things: 
-	* Set default display of files in a directory to display by date, newest first. You can change it date but it defaults to alphabetical by title.
-    * Ability to display values in frontmatter fields in the directory listing page, for example also displaying value in "date" field.
+* I'd like to be able to customize or control a few more things:
+  * Set default display of files in a directory to display by date, newest first. You can change it date but it defaults to alphabetical by title.
+  * Ability to display values from front matter fields in the directory listing page, for example also displaying value in "date" field or "tags".
 
-Here's a look at the three major activities or features.
 
-## Set Up
-
-It was easy to set up! Without reading any instructions I used the "import your site" flow and was up and running quickly.
-
-* Set up
-* Editing
-* Features / Settings
-
-* Easy to set up, I didn't read any instructions and used the "add your site" flow and was up and running quickly. I made a whoopsie and it took my a while to get preview working, but it would've just worked had I not flubbed dependencies in package.json
-* I don't love the editing interface but not a deal breaker
-  * Would like to be able to set the post listing in the admin to default to listing by date
-  * Would like the publish date to display in the post listing page, even better would be to figure what fields from the post template frontmatter display on the listing page
-* I set new posts to use markdown and they still default to html
-* Preview is a little slow and quirky, I think if I were making a site for someone coming from WordPress they would find that annoying
-* Would be nice if images added within the body of a post used lazy loading
+* It would be nice if images added to the body of a post included lazy loading. I created a snippet for images as a work around but that takes away from the ease of use of adding an image.
+* Would be nice to be able to set the default editor to raw rather an WYSIWYG.
