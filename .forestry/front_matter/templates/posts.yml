@@ -14,7 +14,7 @@ fields:
   description: ''
   config:
     required: false
-    date_format: yyyy-mm-dd
+    date_format: MM/DD/YYYY
     time_format: 
     display_utc: false
     export_format: yyyy-mm-dd
