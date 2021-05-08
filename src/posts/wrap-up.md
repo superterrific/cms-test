@@ -34,4 +34,4 @@ There were just a few small things I didn't like or wished I could configure. I 
 
 ## One more test
 
-Now I'm going to deploy to [Netlify](https://netlify.com) and see how publishing and the previews work.
+Now I'm going to deploy to [Netlify](https://netlify.com) and see how publishing and the previews work. Now it's deployed! Going to test the preview on this post. Preview worked fine!
