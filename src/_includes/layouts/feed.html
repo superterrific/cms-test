@@ -1,9 +1,20 @@
 {% extends "layouts/base.html" %}
 
+{% set pageHeaderTitle = title %}
+{% set postListItems = pagination.items %}
+
+{# If this is a tag, grab those items instead as one large collection #}
+{% if tag %}
+  {% set postListItems = collections[tag] | reverse %}
+  {% set pageHeaderTitle = 'Filed under "'+ tag + '"' %}
+{% endif %}
+
 {% block content %}
-  <h1>{{ title }}</h1>
+  <h1>{{ pageHeaderTitle }}</h1>
   {{ content | safe }}
 
   {% include 'partials/post-list.html' %}
-  {% include 'partials/pagination.html' %}
+  {% if not tag %}
+    {% include "partials/pagination.html" %}
+  {% endif %}
 {% endblock %}

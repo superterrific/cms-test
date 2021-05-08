@@ -2,7 +2,7 @@
 
 {% block content %}
   <article class={{ 'featured' if page.url === '/' else 'page' }}>
-    <h1>{{ title }}</h1>
+    <h1>{{ title }} {% if '/tag/' in page.url %}"{{ tag | replace(' ', '-') | lower }}"{% endif %}</h1>
     {{ content | safe }}
   </article>
 
