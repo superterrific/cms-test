@@ -1,6 +1,6 @@
 ---
 title: Bullet point test two
-summary: Same list created in Forestry editor
+summary: Same list created in Forestry editor using the raw editor.
 date: 2021-05-08
 tags:
 - cms
