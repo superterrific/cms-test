@@ -12,12 +12,16 @@ Now that I've gotten the site set-up and the CMS integrated I have a good idea o
 
 First I created the site locally including some content pages with tags, static pages and pagination. Then I uploaded it to GitHub and imported it. From there I played around with a variety of settings and approaches.
 
-## Positives
-
+## Likes
 * Getting up and running is easy when importing a site.
 * If you're familiar with CMSs in general the configuration of setting up directories and pages is straightforward.
 * There seems to be a good amount of flexibility for setting up frontmatter and creating snippets.
 
+## Dislikes
+* I don't love the editing interface but it grew on me a bit after using it for awhile.
+* I'd like to be able to customize or control a few more things: 
+	* Set default display of files in a directory to display by date, newest first. You can change it date but it defaults to alphabetical by title.
+    * Ability to display values in frontmatter fields in the directory listing page, for example also displaying value in "date" field.
 
 Here's a look at the three major activities or features.
 
