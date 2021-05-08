@@ -7,7 +7,7 @@
   <article class="post">
     <div>
       <h1>{{ title }}</h1>
-      <p class="summary">Published on <time datetime="{{ post.data.page.date | w3Date }}">{{ page.date | longDate }}</time></p>
+      <p class="summary">Published on <time datetime="{{ page.date | w3Date }}">{{ page.date | longDate }}</time></p>
     </div>
 
     {% if img %}

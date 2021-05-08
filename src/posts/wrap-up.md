@@ -14,8 +14,6 @@ First I created the site locally including some content pages with tags, static 
 
 Here's a look at the three major activities or features.
 
-{{% tip %}}Hi there{{% /tip %}}
-
 ## Set Up
 
 It was easy to set up! Without reading any instructions I used the "import your site" flow and was up and running quickly.
