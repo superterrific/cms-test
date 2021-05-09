@@ -1,12 +1,14 @@
 ---
 title: Snippets
-summary: Testing out a couple of snippets.
+summary: I've added a couple of snippets. They seem handy.
 date: 2021-05-06
 tags:
 - snippets
 - cms
 img: ''
 alt: ''
+draft: false
+upload: ''
 
 ---
 I created a couple of [snippets](https://forestry.io/docs/settings/snippets/) and am now testing them out.
