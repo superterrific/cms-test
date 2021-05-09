@@ -6,7 +6,7 @@ module.exports = config => {
 
   // Date filters
   config.addFilter('longDate', dateObj => {
-  return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('LLLL dd, yyyy');
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('LLLL dd, yyyy');
   });
 
   config.addFilter('isoDate', dateObj => {
@@ -14,12 +14,12 @@ module.exports = config => {
   });
 
   config.addFilter('w3Date', dateObj => {
-  return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
   });
 
   // Collections
   config.addCollection('posts', collection => {
-  return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
   // Minify
