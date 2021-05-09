@@ -41,7 +41,6 @@ fields:
     required: false
   label: alt
 pages:
-- src/posts/date-picker-test.md
 - src/posts/image-test.md
 - src/posts/now-with-an-image-template.md
 - src/posts/post-dating-using-the-date-field.md
