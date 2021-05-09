@@ -2,7 +2,7 @@
 title: Testing out drafts
 summary: Trying to see if I can drafts set up.
 date: 2021-05-08
-draft: false
+draft: true
 tags:
 - drafts
 - cms
