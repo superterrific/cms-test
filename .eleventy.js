@@ -24,9 +24,9 @@ module.exports = config => {
 
   config.addCollection('posts', collection => {
     if (process.env.ELEVENTY_ENV !== 'production')
-      return [...collection.getFilteredByGlob('./src/posts/*.md')]
+      return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
     else
-      return [...collection.getFilteredByGlob('./src/posts/*.md')]
+      return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse()
       .filter((post) => !post.data.draft)
   })
 
