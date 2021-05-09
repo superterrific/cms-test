@@ -1,14 +1,14 @@
 ---
-title: Post dating using the date field
-summary: Now I'm testing how or if the date field is being used correctly.
+title: Kicking off the test
+summary: And they're off! Here's what I'm going to test.
 date: 2021-04-29
 tags:
 - dates
 - cms
 img: ''
 alt: ''
+draft: false
+upload: ''
 
 ---
-Will post be the first one? If so, the date field is working properly.
-
-**Update** This post should be the second to last.
+Change this to the "first post" post.
