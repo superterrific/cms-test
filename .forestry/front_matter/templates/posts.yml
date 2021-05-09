@@ -36,7 +36,6 @@ fields:
     required: false
   label: alt
 pages:
-- src/drafts/now-for-a-proper-draft.md
 - src/posts/creating-a-new-post.md
 - src/posts/date-picker-test.md
 - src/posts/image-test.md
