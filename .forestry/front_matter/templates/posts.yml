@@ -2,6 +2,10 @@
 label: Posts
 hide_body: false
 fields:
+- name: draft
+  type: boolean
+  label: draft
+  default: true
 - type: text
   name: title
   label: title
@@ -18,10 +22,6 @@ fields:
     time_format: 
     display_utc: false
     export_format: YYYY-MM-DD
-- name: draft
-  type: boolean
-  label: draft
-  default: true
 - type: list
   name: tags
   label: tags
@@ -40,12 +40,10 @@ pages:
 - src/posts/date-picker-test.md
 - src/posts/image-test.md
 - src/posts/now-with-an-image-template.md
-- src/posts/one-more-time-with-the-drafts-1.md
-- src/posts/one-more-time-with-the-drafts.md
 - src/posts/post-dating-using-the-date-field.md
 - src/posts/posting-from-the-cms.md
 - src/posts/snippets.md
 - src/posts/super-new-draft-test.md
-- src/posts/testing-drafts-again.md
-- src/posts/testing-out-drafts.md
+- src/posts/the-draft-that-stays-drafted.md
+- src/posts/trying-something-else.md
 - src/posts/wrap-up.md
