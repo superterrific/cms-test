@@ -18,6 +18,10 @@ fields:
     time_format: 
     display_utc: false
     export_format: YYYY-MM-DD
+- name: draft
+  type: boolean
+  label: draft
+  default: false
 - type: list
   name: tags
   label: tags
