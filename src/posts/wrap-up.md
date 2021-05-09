@@ -6,8 +6,13 @@ tags:
 - cms
 img: ''
 alt: ''
+draft: false
+upload: ''
 
 ---
+
+## Update this
+
 Now that I've gotten the site set-up, the CMS integrated and played around a bit I have a good idea of the pros and cons.
 
 First I created the site locally including some content pages with tags, static pages and pagination. Then I uploaded it to GitHub and imported it. From there I played around with a variety of settings and approaches.
