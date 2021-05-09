@@ -36,25 +36,15 @@ fields:
     required: false
   label: alt
 pages:
-- src/posts/creating-a-new-post.md
+- src/drafts/now-for-a-proper-draft.md
 - src/posts/creating-a-new-post.md
 - src/posts/date-picker-test.md
-- src/posts/date-picker-test.md
-- src/posts/image-test.md
 - src/posts/image-test.md
 - src/posts/now-with-an-image-template.md
-- src/posts/now-with-an-image-template.md
-- src/posts/one-more-time-with-the-drafts.md
 - src/posts/one-more-time-with-the-drafts.md
 - src/posts/post-dating-using-the-date-field.md
-- src/posts/post-dating-using-the-date-field.md
-- src/posts/posting-from-the-cms.md
 - src/posts/posting-from-the-cms.md
 - src/posts/snippets.md
-- src/posts/snippets.md
-- src/posts/testing-drafts-again.md
 - src/posts/testing-drafts-again.md
 - src/posts/testing-out-drafts.md
-- src/posts/testing-out-drafts.md
-- src/posts/wrap-up.md
 - src/posts/wrap-up.md
