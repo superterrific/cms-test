@@ -8,16 +8,12 @@ tags:
 img: ''
 alt: ''
 draft: true
-upload: "/uploads/upload-options.png"
-taggy:
-- cms
-
 ---
-Forestry has a single and and a multiple file uploader that can be added to your front matter template. 
+Forestry has a single and and a multiple file uploader that can be added to your front matter template.
 
 ![](/uploads/upload-options.png)
 
-I'm currently using the single file version. I've uploaded the above image using the "Upload" field that I added to the front matter template. Once the file is uploaded it shows in the "Upload" section, but it doesn't appear that the image can be added to the post once it's uploaded in the front matter section. I had to add it use using the "insert image" flow, which takes you to the Media Library to select the image. 
+I'm currently using the single file version. I've uploaded the above image using the "Upload" field that I added to the front matter template. Once the file is uploaded it shows in the "Upload" section, but it doesn't appear that the image can be added to the post once it's uploaded in the front matter section. I had to add it use using the "insert image" flow, which takes you to the Media Library to select the image.
 
 ![The before and after state of uploading an image at the post level.](/uploads/upload-before-after.png)
 

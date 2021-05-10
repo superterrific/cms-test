@@ -8,8 +8,6 @@ tags:
 img: ''
 alt: ''
 draft: false
-upload: ''
-
 ---
 Change this to the "first post" post.
 

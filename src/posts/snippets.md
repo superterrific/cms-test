@@ -9,8 +9,6 @@ tags:
 img: ''
 alt: ''
 draft: false
-upload: ''
-
 ---
 I created a couple of [snippets](https://forestry.io/docs/settings/snippets/), which are similar to [Eleventy shortcodes](https://www.11ty.dev/docs/shortcodes/). The difference is that they're only accessed in the WYSIWYG editor rather than in markdown.
 

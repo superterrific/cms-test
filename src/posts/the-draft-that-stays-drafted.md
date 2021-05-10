@@ -8,7 +8,6 @@ tags:
 - cms
 img: ''
 alt: ''
-upload: ''
 
 ---
 This is going to work!

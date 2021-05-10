@@ -7,7 +7,6 @@ tags:
 img: ''
 alt: ''
 draft: false
-upload: ''
 
 ---
 
