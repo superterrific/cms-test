@@ -1,5 +1,5 @@
 ---
-title: Image uploader
+title: Post-level image uploads
 summary: I've added an image and file uploader to the front matter template.
 date: 2021-05-05
 tags:
