@@ -34,11 +34,6 @@ fields:
     - images
     - snippets
     - drafts
-- name: upload
-  type: file
-  config:
-    maxSize: 64
-  label: upload
 - name: img
   type: file
   config:
