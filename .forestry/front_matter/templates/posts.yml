@@ -49,6 +49,11 @@ fields:
   config:
     required: false
   label: alt
+- name: caption
+  type: text
+  config:
+    required: false
+  label: caption
 pages:
 - src/posts/image-test.md
 - src/posts/now-with-an-image-template.md
