@@ -14,7 +14,7 @@ upload: ''
 Change this to the "first post" post.
 
 * [Images](/images/) - within a template and within a body of the post
-* Adding a post-level image upload
+* [Adding a post-level image upload](/post-level-image-uploads/)
 * [Snippets](/snippets/) - creating a couple of snippets
 * Date field - post dating
 * Drafts!
