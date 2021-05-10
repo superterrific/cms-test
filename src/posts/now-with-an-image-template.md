@@ -1,6 +1,6 @@
 ---
 title: Post-level image uploads
-summary: I've added an image and file uploader to the front matter template.
+summary: Uploading files directly within the post editing interface.
 date: 2021-05-05
 tags:
 - images
