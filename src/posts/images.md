@@ -16,10 +16,13 @@ I set up the post template to conditionally display an image if there is a value
 ```html
   {% raw %}{% if img %}
     <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
+    {% if caption %}
+    <span class="caption">{{ caption }}</span>
+    {% endif %}
   {% endif %}{% endraw %}
 ```
 
-In the post front matter I have an "img" and an "alt" key where I plug in the the image name and an alt tag. The "img" key uses Forestry's single file upload component and "alt" uses a text field. The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method.
+In the post front matter I have "img", "alt" and "caption keys an image name, alt text and caption can be added to be displayed at the top of the post. The "img" key uses Forestry's single file upload component while "alt" and "caption use text fields. The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method.
 
 ![A sankey diagram with tooltip text that is too big.](/uploads/seven-times.png)
 
