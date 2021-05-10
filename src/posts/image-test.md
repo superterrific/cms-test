@@ -11,6 +11,8 @@ draft: false
 <<<<<<< Updated upstream
 upload: ''
 caption: An example of creating an image area in a template.
+=======
+>>>>>>> Stashed changes
 
 ---
 I set up the post template to conditionally display an image if there is a value in the "img" key in the post's front matter.
