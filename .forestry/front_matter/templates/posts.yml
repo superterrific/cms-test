@@ -22,18 +22,10 @@ fields:
     time_format: 
     display_utc: false
     export_format: YYYY-MM-DD
-- type: list
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
-  config:
-    use_select: false
-    source:
-      type: simple
-    options:
-    - cms
-    - images
-    - snippets
-    - drafts
 - name: img
   type: file
   config:
