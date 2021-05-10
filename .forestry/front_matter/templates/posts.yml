@@ -43,6 +43,7 @@ fields:
     required: false
   label: caption
 pages:
+- src/posts/drafts.md
 - src/posts/post-dating-using-the-date-field.md
 - src/posts/snippets.md
 - src/posts/the-draft-that-stays-drafted.md
