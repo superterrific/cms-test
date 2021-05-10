@@ -49,10 +49,6 @@ fields:
   config:
     required: false
   label: alt
-- name: taggy
-  type: tag_list
-  default: []
-  label: taggy
 pages:
 - src/posts/image-test.md
 - src/posts/now-with-an-image-template.md
