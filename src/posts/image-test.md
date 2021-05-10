@@ -1,20 +1,28 @@
 ---
-title: Image Test
-summary: I tested the images, mixed results.
+title: 'Images '
+summary: Using images within the post template or within the body of a post.
 date: 2021-05-04
 img: db-scores.png
 alt: The most recent Lighthouse scores
 tags:
 - cms
 - images
+draft: false
+upload: ''
 
 ---
-I added an image to the Media gallery and then added to a the [Creating a new post](/posts/creating-a-new-post/) post. The image was in the proper directory but didn't display. Double checked the settings and everything was in order.
+I set up the post template to conditionally display an image if there is a value in the "img" key in the post's front matter.
 
-I added the image to the /uploads directory via GitHub and it worked. So odd.
+```html
+  {% raw %}{% if img %}
+    <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
+  {% endif %}{% endraw %}
+```
 
-**Update** I had the settings wrong, I've updated the image path and am now trying again. I uploaded the Airtable diagram via the Media library and am associated it here.
+In the post front matter I have an "img" and an "alt" key where I plug in the the image name and an alt tag, pictured below.
 
-![Diagram of data coming from Airtable.](/uploads/diagram-airtable.png)
+![Screenshot of the img and alt fields in the post template](/uploads/screen-shot-2021-05-09-at-19-52-55.png)
 
-It worked 🎉
+The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method. The image above showing the "img" and "alt" fields within the Forestry editing interface was added using the Media library. I uploaded the image to the Media Library and added it to the post using "insert image" method in the WYSIWYG editor.
+
+![The WYSIWYG editor in Forestry CMS.](/uploads/insert-image.png)
