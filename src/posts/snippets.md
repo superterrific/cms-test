@@ -1,7 +1,7 @@
 ---
 title: Snippets
 summary: Adding snippets for repetitive entry.
-date: 2021-05-06
+date: 2021-05-05
 tags:
 - images
 - snippets
@@ -9,6 +9,8 @@ tags:
 img: ''
 alt: ''
 draft: false
+caption: ''
+
 ---
 I created a couple of [snippets](https://forestry.io/docs/settings/snippets/), which are similar to [Eleventy shortcodes](https://www.11ty.dev/docs/shortcodes/). The difference is that they're only accessed in the WYSIWYG editor rather than in markdown.
 
