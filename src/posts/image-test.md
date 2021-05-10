@@ -8,8 +8,8 @@ tags:
 - cms
 - images
 draft: false
-upload: "/uploads/db-scores.png"
-caption: ''
+upload: ''
+caption: An example of creating an image area in a template.
 
 ---
 I set up the post template to conditionally display an image if there is a value in the "img" key in the post's front matter.
