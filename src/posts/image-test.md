@@ -29,4 +29,4 @@ The image displayed at the top of the post of my ranking on the [Eleventy leader
 
 You can also add images using markdown in the raw editor.
 
-One downside of adding images directly in the body is the images don't include lazy loading. In my [Snippets post](/snippets/) I created a snippet to include an image that uses loading="lazy", you could also use it add class selectors to images.
+One downside of adding images directly in the body is the images don't include lazy loading. In my [Snippets post](/posts/snippets/) I created a snippet to include an image that uses loading="lazy", you could also use it add class selectors to images.
