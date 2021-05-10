@@ -17,11 +17,6 @@ module.exports = config => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
   });
 
-  // Collections
-  // config.addCollection('posts', collection => {
-  //   return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
-  // });
-
   config.addCollection('posts', collection => {
     if (process.env.ELEVENTY_ENV !== 'production')
       return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
@@ -36,6 +31,7 @@ module.exports = config => {
 
   // Set directories to pass through to the public folder
   config.addPassthroughCopy('./src/uploads/');
+  config.addPassthroughCopy('./src/admin/');
 
   // Limit amount of items displayed
   config.addFilter('limit', function (arr, limit) {
