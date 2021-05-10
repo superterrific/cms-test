@@ -25,6 +25,15 @@ fields:
 - type: list
   name: tags
   label: tags
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - cms
+    - images
+    - snippets
+    - drafts
 - name: upload
   type: file
   config:
