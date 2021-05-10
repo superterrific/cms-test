@@ -9,6 +9,8 @@ img: ''
 alt: ''
 draft: false
 upload: "/uploads/upload-options.png"
+taggy:
+- cms
 
 ---
 Forestry has a single and and a multiple file uploader that can be added to your front matter template. 
