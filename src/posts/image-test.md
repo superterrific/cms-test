@@ -26,3 +26,7 @@ In the post front matter I have an "img" and an "alt" key where I plug in the th
 The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method. The image above showing the "img" and "alt" fields within the Forestry editing interface was added using the Media library. I uploaded the image to the Media Library and added it to the post using "insert image" method in the WYSIWYG editor.
 
 ![The WYSIWYG editor in Forestry CMS.](/uploads/insert-image.png)
+
+You can also add images using markdown in the raw editor.
+
+One downside of adding images directly in the body is the images don't include lazy loading. In my [Snippets post](/snippets/) I created a snippet to include an image that uses loading="lazy", you could also use it add class selectors to images.
