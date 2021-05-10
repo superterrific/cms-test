@@ -22,6 +22,7 @@ fields:
     time_format: 
     display_utc: false
     export_format: YYYY-MM-DD
+  default: now
 - name: tags
   type: tag_list
   default: []
