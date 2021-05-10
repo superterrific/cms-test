@@ -7,7 +7,7 @@ tags:
 - cms
 img: ''
 alt: ''
-draft: false
+draft: true
 upload: "/uploads/upload-options.png"
 taggy:
 - cms
