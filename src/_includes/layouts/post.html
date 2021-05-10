@@ -5,14 +5,14 @@
 
 {% block content %}
   <article class="post">
+    {% if img %}
+    <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
+    {% endif %}
+    
     <div>
       <h1>{{ title }}</h1>
       <p class="summary">Published on <time datetime="{{ page.date | w3Date }}">{{ page.date | longDate }}</time></p>
     </div>
-
-    {% if img %}
-    <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
-    {% endif %}
 
     {{ content | safe }}
     <ul class="tag-nav">
