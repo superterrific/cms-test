@@ -8,6 +8,7 @@ tags:
 - cms
 - images
 draft: false
+<<<<<<< Updated upstream
 upload: ''
 caption: An example of creating an image area in a template.
 

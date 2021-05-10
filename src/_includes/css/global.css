@@ -196,7 +196,8 @@ h2 {
   font-weight: 600;
 }
 
-.post-nav-item {
+.post-nav-item,
+.caption {
   font-size: 1rem;
 }
 
