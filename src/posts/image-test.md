@@ -8,7 +8,8 @@ tags:
 - cms
 - images
 draft: false
-upload: ''
+upload: "/uploads/db-scores.png"
+caption: ''
 
 ---
 I set up the post template to conditionally display an image if there is a value in the "img" key in the post's front matter.
@@ -19,11 +20,11 @@ I set up the post template to conditionally display an image if there is a value
   {% endif %}{% endraw %}
 ```
 
-In the post front matter I have an "img" and an "alt" key where I plug in the the image name and an alt tag, pictured below.
+In the post front matter I have an "img" and an "alt" key where I plug in the the image name and an alt tag. The "img" key uses Forestry's single file upload component and "alt" uses a text field. The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method. 
 
-![Screenshot of the img and alt fields in the post template](/uploads/screen-shot-2021-05-09-at-19-52-55.png)
+![A sankey diagram with tooltip text that is too big.](/uploads/seven-times.png)
 
-The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method. The image above showing the "img" and "alt" fields within the Forestry editing interface was added using the Media library. I uploaded the image to the Media Library and added it to the post using "insert image" method in the WYSIWYG editor.
+The image above showing a slightly messed up sankey diagram was added using a combination of the built in Media Manager and the "insert image" flow in the WYSIYG editor.
 
 ![The WYSIWYG editor in Forestry CMS.](/uploads/insert-image.png)
 
