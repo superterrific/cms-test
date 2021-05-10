@@ -26,7 +26,7 @@ fields:
   name: tags
   label: tags
   config:
-    use_select: true
+    use_select: false
     source:
       type: simple
     options:
