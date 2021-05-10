@@ -40,9 +40,9 @@ fields:
     maxSize: 64
   label: upload
 - name: img
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 64
   label: img
 - name: alt
   type: text
