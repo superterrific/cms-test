@@ -142,7 +142,6 @@ article {
   margin-top: .5rem;
 }
 
-
 .splitter {
   display: flex;
   flex-wrap: wrap;
@@ -151,6 +150,11 @@ article {
 
 .summary {
   margin-top: .5rem;
+  font-size: 1rem;
+}
+
+pre {
+  overflow-x: auto;
   font-size: 1rem;
 }
 

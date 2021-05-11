@@ -21,8 +21,8 @@ module.exports = config => {
     if (process.env.ELEVENTY_ENV !== 'production')
       return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
     else
-      return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft).reverse()
-  })
+      return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft).reverse();
+  });
 
   // Minify
   config.addFilter('cssmin', function(code) {
