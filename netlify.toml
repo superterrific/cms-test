@@ -7,9 +7,5 @@
   [headers.values]
     Permissions-Policy = "interest-cohort=()"
 
-[build.environment]
-  NODE_ENV = "production"
-  ELEVENTY_ENV = "staging"
-
 [context.production.environment]
   ELEVENTY_ENV = "production" # excludes Forestry drafts from production build
