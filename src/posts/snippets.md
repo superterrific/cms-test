@@ -1,7 +1,7 @@
 ---
 title: Snippets
 summary: Adding snippets for repetitive entry.
-date: 2021-05-06
+date: 2021-05-05
 tags:
 - images
 - snippets
