@@ -13,7 +13,7 @@ caption: ''
 ---
 Forestry provides [Previews](https://forestry.io/docs/previews/about-previews/) that are relatively easy to set up. Hugo and Jekyll have [draft capability](https://forestry.io/docs/editing/markdown-editor/#drafting-and-publishing-content) built in, but with Eleventy you'll need to roll your own. If I can do it, so can you!
 
-There are plenty of posts about how to [schedule posts](https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts) or [hide future content](https://www.raymondcamden.com/2020/08/07/hiding-future-content-with-eleventy) in Eleventy. 
+There are plenty of posts about how to [schedule posts](https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts) or [hide future content](https://www.raymondcamden.com/2020/08/07/hiding-future-content-with-eleventy) in Eleventy.
 
 I ended up [using an approach](https://11ta.netlify.app/2020/09/20/v110-brings-draft-posts/)that uses environment and a boolean draft field in front matter, but I also [tried a similar one](https://rusingh.com/2020/05/14/eleventy-exclude-draft-collection-items-programmatically/) that flips permalink to "false".
 
@@ -36,7 +36,11 @@ And added this to my netlify.toml (which I picked up from the [Smix starter](htt
 [context.production.environment]
   ELEVENTY_ENV = "production" # excludes Forestry drafts from production build
 ```
+
 And so far so good 🎉
 
-As long as the post is set to "draft" it's viewable in the Preview site but doesn't "publish". I've updated the post and saved it a couple of times to test it out. I also set a previously published post to draft and that worked too.
+As long as the post is set to "draft" it's viewable in the Preview site but doesn't "publish". I have a test that I've updated and saved a couple of times to test it out. I also set a previously published post to draft and that worked too.
 
+Here's my draft post that will remain drafted...
+
+![A post in draft status.](/uploads/staying-drafted.png)
