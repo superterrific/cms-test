@@ -26,9 +26,9 @@ In eleventy.js I modified my collections to the following...
 ```js
   config.addCollection('posts', collection => {
     if (process.env.ELEVENTY_ENV !== 'production')
-      return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+      return [...collection.getFilteredByGlob('./src/posts/*.md')];
     else
-      return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft).reverse();
+      return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft);
   });
 ```
 

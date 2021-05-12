@@ -17,11 +17,12 @@ module.exports = config => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
   });
 
+  // to make posts list newest first add '.reverse(); to the end of each line that starts with 'return'
   config.addCollection('posts', collection => {
     if (process.env.ELEVENTY_ENV !== 'production')
-      return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+      return [...collection.getFilteredByGlob('./src/posts/*.md')];
     else
-      return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft).reverse();
+      return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft);
   });
 
   // Minify
