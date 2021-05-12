@@ -3,7 +3,7 @@ title: 'Images '
 summary: Using images within the post template or within the body of a post.
 date: 2021-05-04
 img: db-scores.png
-alt: The most recent Lighthouse scores
+alt: The most recent Lighthouse scores.
 tags:
 - cms
 - images
@@ -22,7 +22,26 @@ I set up the post template to conditionally display an image if there is a value
   {% endif %}{% endraw %}
 ```
 
-In the post front matter I have "img", "alt" and "caption keys an image name, alt text and caption can be added to be displayed at the top of the post. The "img" key uses Forestry's single file upload component while "alt" and "caption use text fields. The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method.
+In the post front matter I have "img", "alt" and "caption keys an image name, alt text and caption can be added to be displayed at the top of the post. Here's the front matter for this post...
+
+```html
+---
+title: 'Images'
+summary: Using images within the post template or within the body of a post.
+date: 2021-05-04
+img: db-scores.png
+alt: The most recent Lighthouse scores
+caption: An example of creating an image area in a template.
+tags:
+- cms
+- images
+draft: false
+---
+```
+
+The "img" key uses Forestry's single [file upload component](https://forestry.io/docs/settings/fields/#file-upload) while "alt" and "caption use text fields. This allows you to upload the image and have it associate to the "img" field in front matter without having to navigate to the Media Library to upload and select an image.
+
+The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method.
 
 ![A sankey diagram with tooltip text that is too big.](/uploads/seven-times.png)
 
