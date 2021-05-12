@@ -1,7 +1,7 @@
 ---
 title: Wrap up
 summary: 'I''ve sufficiently tested this CMS, here are my notes. '
-date: 2021-05-07
+date: 2021-05-12
 tags:
 - cms
 img: ''
@@ -36,4 +36,4 @@ There were just a few small things I didn't like or wished I could configure. I 
 * It would be nice to be able to set the default editor to raw rather an WYSIWYG.
 * It would be nice to be able to delete multiple files from directory at once rather than one at a time.
 
-I'll use this site if I test any other CMSs. I might test an API-based one, like [Sanity](https://sanity.io). I might also test [Netlify's Git-based option](https://www.netlifycms.org/). 
+I'll use this site if I test any other CMSs. I might test an API-based one, like [Sanity](https://sanity.io). I might also test [Netlify's Git-based option](https://www.netlifycms.org/).
