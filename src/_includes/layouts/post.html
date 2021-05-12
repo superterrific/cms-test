@@ -5,21 +5,22 @@
 
 {% block content %}
   <article class="post">
+
+    {% if img %}
     <div>
-      {% if img %}
       <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
       {% if caption %}
       <span class="caption">{{ caption }}</span>
       {% endif %}
-      {% endif %}
     </div>
-
+    {% endif %}
     <div>
       <h1>{{ title }}</h1>
       <p class="summary">Published on <time datetime="{{ page.date | w3Date }}">{{ page.date | longDate }}</time></p>
     </div>
 
     {{ content | safe }}
+    </article>
     <ul class="tag-nav">
       {% for tag in tags %}
         <li>
@@ -52,5 +53,5 @@
       {% endif %}
     </nav>
   {% endif %}
-  </article>
+
 {% endblock %}

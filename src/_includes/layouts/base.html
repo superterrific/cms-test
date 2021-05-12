@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ site.siteName }}</title>
+  {%- set pageTitle = title -%}
+  {%- if '/tag/' in page.url -%}
+  {% set pageTitle = 'Filed under "'+ tag + '"' %}
+  {%- endif -%}
+  {%- set siteDescription = summary -%}
+  <meta name="description" content="{{ siteDescription }}" />
+  <title>{{ site.siteName }}{% if page.url !== '/' %} - {{ pageTitle }}{% endif %}</title>
   {% set css %}
     {% include "css/global.css" %}
   {% endset %}
@@ -13,17 +19,26 @@
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
-    <div class="site-title">CMS Test</div>
-    <nav>
-      <ul class="site-nav" aria-label="Primary">
-        <li><a href="/">Home</a></li>
-        <li><a href="/posts">Posts</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper site-header">
+      <div class="site-title">CMS Test</div>
+      <nav aria-label="Primary">
+        <ul class="site-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts">Posts</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main id="main-content">
-    {% block content %}{% endblock %}
+    <div class="wrapper flow">
+      {% block content %}{% endblock %}
+    </div>
   </main>
+  <footer>
+    <div class="wrapper">
+      A small test put together by <a href="https://danabyerly.com">Dana Byerly</a> using <a href="https://11ty.dev">Eleventy</a>, <a href="https://forestry.io">Forestry</a> and <a href="https://netlify.com">Netlify</a>.
+    </div>
+  </footer>
 </body>
 </html>
