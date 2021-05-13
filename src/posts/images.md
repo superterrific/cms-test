@@ -15,7 +15,7 @@ I set up the post template to conditionally display an image if there is a value
 
 ```html
   {% raw %}{% if img %}
-    <img src="/uploads/{{ img }}" alt="{{ alt }}" loading="lazy" />
+    <img src="/img/{{ img }}" alt="{{ alt }}" loading="lazy" />
     {% if caption %}
     <span class="caption">{{ caption }}</span>
     {% endif %}
@@ -43,11 +43,11 @@ The "img" key uses Forestry's single [file upload component](https://forestry.io
 
 The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method.
 
-![A sankey diagram with tooltip text that is too big.](/uploads/seven-times.png)
+![A sankey diagram with tooltip text that is too big.](/img/seven-times.png)
 
 The image above showing a slightly messed up sankey diagram was added using a combination of the built in Media Manager and the "insert image" flow in the WYSIYG editor.
 
-![The WYSIWYG editor in Forestry CMS.](/uploads/insert-image.png)
+![The WYSIWYG editor in Forestry CMS.](/img/insert-image.png)
 
 You can also add images using markdown in the raw editor.
 

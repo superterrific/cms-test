@@ -45,4 +45,4 @@ As long as the post is set to "draft" it's viewable in the Preview site but does
 
 Here's my draft post that will remain drafted...
 
-![A post in draft status.](/uploads/staying-drafted.png)
+![A post in draft status.](/img/staying-drafted.png)

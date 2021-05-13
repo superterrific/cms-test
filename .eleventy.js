@@ -31,7 +31,7 @@ module.exports = config => {
   });
 
   // Set directories to pass through to the public folder
-  config.addPassthroughCopy('./src/uploads/');
+  config.addPassthroughCopy('./src/img/');
   config.addPassthroughCopy('./src/admin/');
 
   // Limit amount of items displayed
