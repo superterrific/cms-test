@@ -1,6 +1,6 @@
 {
   "siteName": "CMS Test",
-  "url": "https://vigorous-benz-80f8e4.netlify.app/",
+  "url": "https://vigorous-benz-80f8e4.netlify.app",
   "siteDescription": "A site to test out various headless CMS",
   "socialImage": "/img/social-image.png"
 }
