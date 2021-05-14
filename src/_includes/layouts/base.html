@@ -9,7 +9,21 @@
   {% set pageTitle = 'Filed under "'+ tag + '"' %}
   {%- endif -%}
   {%- set siteDescription = summary -%}
+  {%- set currentUrl = site.url + page.url -%}
+  {%- set socialImage = site.url + site.socialImage -%}
+
+  <link rel="canonical" href="{{ currentUrl }}" />
+  <meta property="og:site_name" content="{{ siteTitle }}" />
+  <meta property="og:title" content="{{ pageTitle }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ currentUrl }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="{{ socialImage }}" />
+  <meta name="twitter:image" content="{{ socialImage }}" />
+  <meta property="og:image:alt" content="Decorative image for {{ site.siteName }}" />
+  <meta name="twitter:image:alt" content="Decorative image for {{ site.siteName }}" />
   <meta name="description" content="{{ siteDescription }}" />
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
   <title>{{ site.siteName }}{% if page.url !== '/' %} - {{ pageTitle }}{% endif %}</title>
   {% set css %}
     {% include "css/global.css" %}
