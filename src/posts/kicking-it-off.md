@@ -8,12 +8,14 @@ img: ''
 alt: ''
 draft: false
 caption: ''
+
 ---
 I'm looking for a headless CMS to use with [Eleventy](https://11ty.dev). I have a content creation and editing flow that I like, but I might be setting up some sites for people who'd prefer to use a CMS.
 
 I'm looking for something that's both easy to use and easy to set-up (and maintain!). This makes Git-based options attractive, so I'm starting with [Forestry](https://forestry.io).
 
 To test it out I created a simple site locally that includes:
+
 * A Homepage
 * Posts and a post listing page
 * Tags and a a tag listing page
@@ -25,7 +27,7 @@ I uploaded the site to GitHub and imported it to Forestry via the "Import site" 
 I've made a post about each of the elements I decided to include, plus a wrap-up to discuss pros and cons.
 
 * [Images](/posts/images/) - within a template and within a body of the post
-* [Snippets](/posts/snippets/) - creating a couple of snippets
-* [Date field](/posts/date-field) - a couple of options
+* [Snippets](/posts/snippets/) - creating usable text or code
+* [Date field](/posts/date-field) - options for handling dates
 * [Drafts](/posts/drafts/) - setting up drafts
-* [Wrap up](/posts/wrap-up/) - pros and cons
+* [Wrap up](/posts/wrap-up/) - overview, likes and dislikes
