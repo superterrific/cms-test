@@ -22,7 +22,7 @@ I set up the post template to conditionally display an image if there is a value
   {% endif %}{% endraw %}
 ```
 
-In the post front matter I have "img", "alt" and "caption keys an image name, alt text and caption can be added to be displayed at the top of the post. Here's the front matter for this post...
+In the post front matter I have "img", "alt" and "caption". Here's the front matter for this post...
 
 ```html
 ---
@@ -39,16 +39,16 @@ draft: false
 ---
 ```
 
-The "img" key uses Forestry's single [file upload component](https://forestry.io/docs/settings/fields/#file-upload) while "alt" and "caption use text fields. This allows you to upload the image and have it associate to the "img" field in front matter without having to navigate to the Media Library to upload and select an image.
+The "img" key uses Forestry's single [file upload component](https://forestry.io/docs/settings/fields/#file-upload) while "alt" and "caption use text fields. Using the file upload for the "img" field is a nice convenience, removing the step of navigating to the Media Library to upload and associate the image.
 
 The image displayed at the top of the post of my ranking on the [Eleventy leaderboard](https://www.11ty.dev/speedlify/) has been added via this method.
 
 ![A sankey diagram with tooltip text that is too big.](/img/seven-times.png)
 
-The image above showing a slightly messed up sankey diagram was added using a combination of the built in Media Manager and the "insert image" flow in the WYSIYG editor.
+The image above showing a slightly messed up sankey diagram was added using a combination of the built in Media Library and the "insert image" flow in the WYSIYG editor.
 
 ![The WYSIWYG editor in Forestry CMS.](/img/insert-image.png)
 
 You can also add images using markdown in the raw editor.
 
-One downside of adding images directly in the body is the images don't include lazy loading. In my [Snippets post](/posts/snippets/) I created a snippet to include an image that uses loading="lazy", you could also use it add class selectors to images.
+One downside of adding images directly in the body of the post via "insert image" is that the images don't include lazy loading. In my [Snippets post](/posts/snippets/) I created a snippet to include an image that uses loading="lazy".
