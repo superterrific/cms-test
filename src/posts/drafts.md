@@ -13,11 +13,25 @@ caption: ''
 ---
 Forestry provides [Previews](https://forestry.io/docs/previews/about-previews/) that are [relatively easy to set up](https://forestry.io/docs/previews/instant-previews/). Hugo and Jekyll have [draft capability](https://forestry.io/docs/editing/markdown-editor/#drafting-and-publishing-content) built in, but with Eleventy you'll need to roll your own. If I can do it so can you!
 
+## Preview Settings
+
+In package.json I added the following to scripts:
+
+```html
+"forestry:preview": "eleventy --serve"
+```
+
+And in the Configuration section withing Settings > Preview I added "npm run forestry:preview". Below are my Preview settings...
+
+![The configuration section my Preview settings showing the npm run forestry:preview as the build command](/img/screen-shot-2021-05-16-at-20-30-13.png)
+
+## Draft Settings
+
 There are plenty of posts about how to [schedule posts](https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts) or [hide future content](https://www.raymondcamden.com/2020/08/07/hiding-future-content-with-eleventy) in Eleventy.
 
 I ended up using an approach that uses environment and a boolean draft field in front matter to [filter out posts with draft: "true"](https://11ta.netlify.app/2020/09/20/v110-brings-draft-posts/), but I also tried a similar one that [flips permalink to "false"](https://rusingh.com/2020/05/14/eleventy-exclude-draft-collection-items-programmatically/).
 
-The permalink approach, which is used in Ru Singh's [Forestry Eleventy starter Smix](https://github.com/hirusi/smix-eleventy-starter), doesn't keep the post from publishing ([which is noted here](https://rusingh.com/2020/05/14/eleventy-exclude-draft-collection-items-programmatically/)). In my case that meant it was displayed on the post listing page. I probably could've figured out how to keep it from displaying in the listing, but decided to try another approach. This brought me to the filtering approach. 
+The permalink approach, which is used in Ru Singh's [Forestry Eleventy starter Smix](https://github.com/hirusi/smix-eleventy-starter), doesn't keep the post from publishing ([which is noted here](https://rusingh.com/2020/05/14/eleventy-exclude-draft-collection-items-programmatically/)). In my case that meant it was displayed on the post listing page. I probably could've figured out how to keep it from displaying in the listing, but decided to try another approach. This brought me to the filtering approach.
 
 First I set up a draft field in Forestry and set it to default to true. This ensures that any new posts will not inadvertently be published to production. Here's the frontmatter from this post...
 
