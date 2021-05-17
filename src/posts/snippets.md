@@ -18,6 +18,8 @@ I created a couple of [snippets](https://forestry.io/docs/settings/snippets/), w
 
 I created a snippet to ensure that images within the body of a post use lazy loading, but it could also be useful for applying a class selector to the image if necessary.
 
+The image below was added using a snippet.
+
 <img src="/img/diagram-airtable.png" alt="A diagram showing data coming from Airtable" loading="lazy">
 
 ## Table snippet
