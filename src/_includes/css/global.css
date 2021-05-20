@@ -129,7 +129,7 @@ a:focus {
 }
 
 /* Layout ---------------------------------------------------------------- */
-article {
+.post {
   max-width: 45rem;
   font-size: 1.1rem;
 }
@@ -141,10 +141,6 @@ article {
 
 .post ul {
   margin-top: 1em;
-}
-
-.page > * + * {
-  margin-top: 1rem;
 }
 
 .post > * + * {
@@ -166,7 +162,7 @@ article {
 }
 
 .summary {
-  margin-top: .5rem;
+  margin-top: .25rem;
   font-size: 1rem;
 }
 
@@ -227,6 +223,8 @@ h2 {
 .featured {
   border: 1px solid var(--color-primary);
   padding: 1rem;
+  padding: clamp(.22rem, 2.5vw, 1.25rem);
+  max-width: 45rem;
 }
 
 .featured h1 {
