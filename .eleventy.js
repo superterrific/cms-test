@@ -1,7 +1,6 @@
 const { DateTime } = require('luxon');
 const CleanCSS = require('clean-css');
 
-
 module.exports = config => {
 
   // Date filters
@@ -37,6 +36,12 @@ module.exports = config => {
   // Limit amount of items displayed
   config.addFilter('limit', function (arr, limit) {
     return arr.slice(0, limit);
+  });
+
+  // Open the browser on launch
+  config.setBrowserSyncConfig({
+    open: true,
+    ghostMode: false
   });
 
   return {
