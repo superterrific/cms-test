@@ -8,4 +8,4 @@
     Permissions-Policy = "interest-cohort=()"
 
 [context.production.environment]
-  ELEVENTY_ENV = "production" # excludes Forestry drafts from production build
+  ELEVENTY_ENV = "production" # excludes drafts from production build
