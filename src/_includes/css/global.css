@@ -2,7 +2,24 @@
   --color-primary: #0d3345;
   --color-white: #fff;
   --color-dark: #222;
+  --color-light: #efefef;
   --color-medium: #a7d7ee;
+
+  --site-bg: var(--color-light);
+  --site-text: var(--color-dark);
+  --link-color: var(--color-primary);
+  --footer-bg: var(--color-primary);
+  --feature-border: var(--color-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --site-bg: var(--color-primary);
+    --site-text: var(--color-light);
+    --link-color: var(--color-medium);
+    --footer-bg: var(--color-dark);
+    --feature-border: var(--color-medium);
+  }
 }
 
 /* Resets ---------------------------------------------------------------- */
@@ -80,10 +97,11 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding: 1rem 0 0;
-  color: var(--color-dark);
+  color: var(--site-text);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: var(--site-bg);
 }
 
 .flow > * + * {
@@ -110,12 +128,17 @@ main {
 
 footer {
   padding: 2rem 0;
-  background: var(--color-medium);
+  background: var(--footer-bg);
   margin-top: 3rem;
+  color: var(--color-medium);
+}
+
+footer a {
+  color: var(--color-medium);
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--link-color);
   text-underline-offset: .2rem;
 }
 
@@ -124,7 +147,7 @@ a:hover {
 }
 
 a:focus {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--link-color);
   outline-offset: .2rem;
 }
 
@@ -221,7 +244,7 @@ h2 {
 
 /* Homepage featured component ------------------------------------------- */
 .featured {
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--feature-border);
   padding: 1rem;
   padding: clamp(.22rem, 2.5vw, 1.25rem);
   max-width: 45rem;
@@ -248,8 +271,8 @@ a.skip-link {
 
 a.skip-link:focus,
 a.skip-link:active {
-    color: var(--color-white);
-    background-color: var(--color-primary);
+    color: var(--site-bg);
+    background-color: var(--site-text);
     left: auto;
     top: auto;
     width: 30%;

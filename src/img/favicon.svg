@@ -4,8 +4,8 @@
     <title>favicon</title>
     <desc>Created with Sketch.</desc>
     <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#A7D7EE" x="0" y="0" width="32" height="32"></rect>
-        <text id="CMS" font-family="Georgia-Bold, Georgia" font-size="12" font-weight="bold" fill="#0D3345">
+        <rect fill="#0D3345" x="0" y="0" width="32" height="32"></rect>
+        <text id="CMS" font-family="Georgia-Bold, Georgia" font-size="12" font-weight="bold" fill="#A7D7EE">
             <tspan x="1.6" y="20.0181818">CMS</tspan>
         </text>
     </g>

@@ -31,6 +31,7 @@
     {% include "css/global.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  {% include 'partials/netlify-identity-widget.html' %}
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -53,8 +54,9 @@
   </main>
   <footer>
     <div class="wrapper">
-      A small test put together by <a href="https://danabyerly.com">Dana Byerly</a> using <a href="https://11ty.dev">Eleventy</a>, <a href="https://forestry.io">Forestry</a> and <a href="https://netlify.com">Netlify</a>.
+      A small test put together by <a href="https://danabyerly.com">Dana Byerly</a> using <a href="https://11ty.dev">Eleventy</a>, <a href="https://www.netlifycms.org/">Netlify CMS</a> and <a href="https://netlify.com">Netlify</a>.
     </div>
   </footer>
+  {% include 'partials/identity.js' %}
 </body>
 </html>
