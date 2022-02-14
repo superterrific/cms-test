@@ -1,7 +1,7 @@
 ---
 title: Wrap up
 summary: 'I''ve sufficiently tested this CMS, here are my notes. '
-date: 2022-02-12
+date: 2021-05-12
 tags:
 - cms
 img: ''
